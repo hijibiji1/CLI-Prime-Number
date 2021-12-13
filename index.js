@@ -21,10 +21,10 @@ var mm = parseInt(date[1]);
 
 function validation() {
   if (dd == NaN || mm == NaN) {
-    console.log(chalk.red("Please enter a valied date"));
+    console.log(chalk.red("Please enter a valid date"));
   }
   else if (dd < 0 || dd > 31 || mm < 0 || mm > 31) {
-    console.log(chalk.red("Please enter a valied date"));
+    console.log(chalk.red("Please enter a valid date"));
   }
   else {
     checkPrimeNumber(dd);
